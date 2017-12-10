@@ -1,0 +1,102 @@
+html, body, h1, h2, h3, h4, h5, h6, div, p, span, tr, td {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size:0;
+}
+
+.el-card, .el-card .el-card__header {
+  transition: border 0.3s;
+}
+
+.el-card + .el-card {
+  margin-top: 16px;
+}
+
+.el-card:hover {
+  border-color: #58B7FF
+}
+
+.el-card .el-card__header {
+  padding: 12px 20px;
+  background: #F9FAFC;
+}
+
+.el-card:hover .el-card__header {
+  border-color: #58B7FF
+}
+
+.el-card .el-card__body {
+  padding: 0px;
+}
+
+.kgr-window-main-wrapper {
+  padding: 10px;
+}
+
+.kgr-window-main {
+  height: 100%;
+}
+
+.kgr-img-upload .el-upload {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.kgr-img-upload .kgr-img-upload-img-wrapper {
+  position: relative;
+}
+
+.kgr-img-upload .kgr-img-upload-img-wrapper > .kgr-img-upload-plus {
+  position: relative;
+}
+
+.kgr-img-upload .kgr-img-upload-plus {
+  line-height: 100%;
+  text-align: center;
+}
+
+.kgr-img-upload .kgr-img-upload-mask {
+  transition: opacity .3s;
+  opacity: 0.0
+}
+
+.kgr-img-upload .kgr-img-upload-mask:hover {
+  opacity: 1.0
+}
+
+.kgr-img-upload .kgr-img-upload-img-wrapper > img {
+  display: block;
+  position: absolute
+}
+
+.kgr-panel .el-button--text {
+  color: #D3DCE6;
+  transition: color 0.3s;
+}
+
+.kgr-panel .el-button--text:hover {
+  color: #99A9BF;
+}
+
+.kgr-button-uploader {
+  border: none !important;
+  padding: 0 !important;
+}
+
