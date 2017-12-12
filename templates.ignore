@@ -1,4 +1,4 @@
-{{#if !supportMacawAdmin}}
+{{#if_no supportMacawAdmin}}
 src/entry/login.js
 src/entry/password.js
-{{/if}}
+{{/if_no}}
