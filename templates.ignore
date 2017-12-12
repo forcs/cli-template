@@ -2,3 +2,5 @@
 src/entry/login.js
 src/entry/password.js
 {{/if_no}}
+
+templates.ignore
