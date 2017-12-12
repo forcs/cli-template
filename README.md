@@ -1,6 +1,6 @@
-# kangaroo-cms-ui
+# {{projectName}}
 
-> A Vue.js project
+> {{projectDescription}}
 
 ## Build Setup
 

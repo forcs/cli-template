@@ -1,0 +1,4 @@
+{{#if supportMacawAdmin}}
+src/entry/login.js
+src/entry/password.js
+{{/if}}
